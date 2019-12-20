@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "889363453686",
+    "firebase_url": "https://chatapp-ffcba.firebaseio.com",
+    "project_id": "chatapp-ffcba",
+    "storage_bucket": "chatapp-ffcba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889363453686:android:5d3c501077f2c67df9fed7",
+        "android_client_info": {
+          "package_name": "com.example.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889363453686-1t56rmttshmkk2g72me8s36a06ch32v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasetest",
+            "certificate_hash": "4d77c3f50ec9f7d6781c43d5975529349c60acd5"
+          }
+        },
+        {
+          "client_id": "889363453686-catk0krjkb6r9qclqp2uumnuin8f3ahs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDXroqt2Sds-dQqce940BmQAvlAWD6-nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889363453686-catk0krjkb6r9qclqp2uumnuin8f3ahs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
