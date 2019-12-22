@@ -6,8 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
- public class MainActivity extends AppCompatActivity {
+ public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btn_createAccount;
     @Override
@@ -15,14 +16,15 @@ import android.widget.Button;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btn_createAccount=findViewById(R.id.btn_createAccount);
-        btn_createAccount.setOnClickListener((View.OnClickListener) this);
+        btn_createAccount.setOnClickListener(this);
     }
 
     public void onClick(View v)
     {
-        // TODO Auto-generated method stub
+        Toast.makeText(this, "You clicked the register button", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(getApplicationContext(),RegisterActivity.class);
         startActivity(i);
-        setContentView(R.layout.activity_register);
+
+
     }
 }
